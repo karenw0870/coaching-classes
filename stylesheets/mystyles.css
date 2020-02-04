@@ -1,0 +1,368 @@
+/* ------ Text Formats ------------------ */
+
+body {
+	font-family: verdana, arial;
+	margin: 0.1em;
+
+	background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    url("../images/dirt.jpg");
+}
+
+.homeimg {
+	display: block;
+	margin: auto;	
+	width: 80%;
+}
+
+.box {
+	background-color: rgb(242,241,234);
+	border-color: rgb(154,143,89);
+	border-style: ridge;
+	border-width: 0.25em;
+	border-radius: 0.5em;
+}
+
+
+/* ------ MAIN CONTENT ---------- */
+
+.content {
+	position: absolute;
+	z-index: 0;
+}
+
+.home_content{
+  background-image: url("../images/dirt.jpg");
+	display: flex;
+}
+
+.home_contentitem {
+	position: relative;
+	display: inline;
+	flex: 1;
+}
+
+.home_contentmid {
+	background-color: rgba(255,255,255,0.6);
+	display: inline;
+	flex: 2;
+}
+
+.home_contentitem h2 {
+	text-align: center;
+}
+
+.home_contentmid h2 {
+	text-align: center;
+}
+
+/* Screen Areas / Divs */
+
+#filterbox {
+	background-color: rgb(240,233,213);
+	border: 0;
+	border-radius: 0.5em;
+	margin: 0.5em;
+}
+
+#clearline {
+	clear: both;
+}
+
+/* ------ FORMS ------------------ */
+
+form {
+	position: relative;
+	background-color: rgb(240,233,213);
+	border: 0;
+	border-radius: 0.5em;
+	padding: 0 0.5em;
+}
+
+legend span {
+	text-align: left;
+	font-family: verdana, arial;
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(132,95,6)
+}
+
+label {
+	display: block;
+	position: relative;
+}
+
+select {
+	margin: 0;
+	border-radius: 0.25em;
+	border: 0.1em solid rgb(37,74,84);
+  cursor: pointer;
+}
+
+textarea {
+	vertical-align: top;
+	font-family: verdana, arial;
+	border-radius: 0.25em;
+	border: 0.1em solid rgb(37,74,84);
+	resize: none;
+}
+
+input {
+	margin: 0;
+	border-radius: 0.3em;
+	border: 0.1em solid rgb(37,74,84);
+}
+
+input[type=submit] {
+	background-color: rgb(180,180,190);
+	position: relative;	
+	display: block;
+	text-align: center;
+	border: none;
+	color: black;
+	text-decoration: none;
+	font-family: verdana;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: green; 
+	color: white;
+}
+
+/* ------ LIST STYLES ------------------ */
+
+dl {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 0.8em;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0.25em;
+}
+
+
+/* ------ TABLES ------------------ */
+
+table {
+	background: white;
+	padding: 0.2em;
+	border: 0.2em solid rgb(51,102,115);
+	border-radius: 0 0.5em 0 0.5em;
+	width: 100%;
+}
+
+th {
+	background-color: rgb(51,102,115);
+	color: white;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+}
+
+tr:nth-child(2n+0) {
+	background: lightgray;
+}
+
+
+/* ------ IMAGES ------------------ */
+
+img.logo {
+	/*background-color: rgb(240,233,213);*/
+	background-color: white;
+}
+
+img.bullet {
+	height: 3.75em;
+	width: 4.75em;
+	border-style: none;
+	border: 0;
+}
+
+li {
+	font-family: verdana;
+	font-size: 0.9em;
+}
+
+
+/* ------ Image/Text Frame ---------- */
+/* individual mobile/screen style sheets for sizing */
+
+.frame {
+	position: relative;
+	background-color: rgb(240,233,213);
+	display: flex;
+}
+
+.frameimg {
+
+}
+
+.framedesc {
+	border: 0.2em solid whitesmoke;
+	background-color: lightgray;
+}
+
+/* Minor sections */
+
+.frameimg_main {
+	border: 0.3em solid rgb(51,102,115);
+}
+
+.framedesc_text {
+	border: 0.2em solid gray;
+	background-color: white;
+	overflow: auto;
+}
+
+.frameimg h2 {
+}
+
+.h2img {
+	vertical-align: middle;
+}
+
+/* ------ HEADER 1 ------------------ */
+
+#hdr {
+	background-color: rgb(211,204,157);
+	margin-top: 0.2em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+	padding: 0;
+	top: 0.5em;
+	left: 0.5em;
+	right: 0.02em;
+	height: 3.5em;
+  z-index: 1;
+}
+
+/* Header Items */
+
+#hdr_title {
+	color: rgb(51,102,115);
+	position: absolute;
+	margin: 0;
+	margin-top: 0;
+	padding-left: 0;
+	padding-top: 1.2em;
+	left: 4.5em;
+	right: 3em;
+	height: 1em;
+	font-family: broadway;
+	font-style: normal;
+	font-size: 1.6em;
+	z-index: 13;
+	text-shadow: 0.05em 0.05em whitesmoke;
+}
+
+#hdr_logo {
+	background-color: white;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 0.4em;
+	left: 0.4em;
+	width: 3.8em;
+	height: 3.2em;
+  z-index: 17;
+}
+
+/* nested Header Items */
+
+#hdr_logo_img {
+	width: 4.5em;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+
+/* ------ LOGIN 16 ------------------ */
+
+#login {
+	display: none;
+	position: absolute;
+	text-align: right;
+	top: 0.5em;
+	right: 0.5em;
+	z-index: 16;	
+}
+
+#login_input {
+  width: 5em;
+	height: 1.4em;
+	padding: 0;
+	margin: 0;
+}
+
+#login_submit {
+	background-color: rgb(204,204,210);
+	border: none;
+	color: rgb(51,102,115);
+	padding: 0.2em 1em;
+	text-decoration: none;
+	margin: 0.2em 0em;
+	height: 1.6em;
+	right: 0;
+	font-family: verdana;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+
+
+/* ------ HOME 18 ------------------ */
+
+#home {
+	position: absolute;
+	background-color: rgb(158,156,146);
+  z-index: 18;
+}
+
+#home_img {
+	position: absolute;
+	border: 0;
+}
+
+
+/* ------ MENU 14 ------------------ */
+
+#menu {
+	background-color: rgb(158,156,146);
+  position: absolute;
+  font-family: verdana;
+	z-index: 14;
+}
+
+#menublock {
+	background-color: rgb(158,156,146);
+	z-index: 15;
+}
+
+#menubar {
+	position: absolute;
+	background-color: rgb(158,156,146);
+  z-index: 3;
+}
+
+
+/* ------ FOOTER 200 ------------------ */
+
+#footer {
+	bottom: 0;
+	background-color:  rgb(211,204,157);
+	position: fixed;
+  text-align: center;
+	z-index: 200;
+}
+
+#footer_block {
+	color: rgb(37,74,84);
+	z-index: 0;
+}
+

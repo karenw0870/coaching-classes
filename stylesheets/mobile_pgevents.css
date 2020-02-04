@@ -1,0 +1,51 @@
+/* ------ TABLE ------------------ */
+
+.tablearea {
+	margin: -0.1em;
+}
+
+.hdrdate {
+	width: 8em;
+}
+
+.hdrclass {
+
+}
+
+.hdrriders {
+	width: 5em;
+}
+
+.hdrtimes {
+	width: 5em;	
+}
+
+.hdrbook {
+	width: 5em;	
+}
+
+.coldate {
+	text-align: center;
+	vertical-align: top;
+}
+
+.colclass {
+	text-align: left;	
+	vertical-align: top;
+}
+
+.colriders {
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.coltimes {
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.colbook {
+	text-align: center;
+	vertical-align: bottom;
+}
+

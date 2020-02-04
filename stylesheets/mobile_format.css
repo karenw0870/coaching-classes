@@ -1,0 +1,329 @@
+/* ------ Main Content ---------- */
+
+.content {
+	flex-direction: column; 
+	min-height: 30em;
+	margin-top: 1em;
+	left: 2%;
+	right: 2%;
+}
+
+.home_content{
+	flex-direction: column;
+	margin-top: 1.8em;
+	height: 100%;
+	min-height: 30em;
+}
+
+.home_contentitem {
+	display: none;
+}
+
+.home_contentmid {
+	min-height: 10em;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+/* Screen Areas / Divs */
+
+#filterbox {
+	margin: 0.5em;
+}
+
+/* ------ Text Frame ---------- */
+
+.textframe {
+	position: relative;
+	margin: 0em 0.5em;
+	background: whitesmoke;
+	padding: 0.1em 2% 0.1em;
+	border: 0.2em solid rgb(51,102,115);
+}
+
+.textframe p {
+	margin: 0;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+.topright {
+	border-radius: 0.5em 0 0.5em 0;
+}
+
+.topleft {
+	border-radius: 0 0.5em 0 0.5em;
+}
+
+.imgtopleft {
+	position: absolute;
+	left: -0.7em;
+	top: -0.7em;
+	width: 2em;
+}
+
+.imgtopright {
+	position: absolute;
+	right: -0.7em;
+	top: -0.7em;
+	width: 2em;
+}
+
+.imgbottomleft {
+	position: absolute;
+	left: -0.7em;
+	bottom: -0.7em;
+	width: 2em;
+}
+
+.imgbottomright {
+	position: absolute;
+	right: -0.7em;
+	bottom: -0.7em;
+	width: 2em;
+}
+
+
+/* ------ Image/Text Frame ---------- */
+/* mystles for colour and border styles */
+
+.frame {
+	margin: 0.5em;
+	border-radius: 0.5em 0.5em 0 0;
+	flex-direction: column;
+}
+
+.frameimg {
+	margin: auto;
+	flex-direction: column;
+}
+
+.framedesc {
+	margin: 0.2em;
+}
+
+/* Minor sections */
+
+.frameimg_main {
+	margin: auto;
+	display: block;
+	width: 80%;
+}
+
+.framedesc_text {
+	margin: 0.2em;
+	padding: 0 10%;
+	height: calc(100% - 0.8em);
+}
+
+.frameimg h2 {
+	margin: 0.3em 0 0 0.3em;
+}
+
+.h2img {
+	width:1em;
+}
+
+
+/* ------ FORM ------------------ */
+
+form {
+	font-size: 0.7em;
+}
+
+fieldset {
+	margin-top: 0.2em;
+	padding: 0.5em;
+	left: 0;
+}
+
+label {
+	text-align: left;
+	padding: 0.3em 0.3em 0.3em 0;
+}
+
+select {
+	position: relative;
+	height: 1.5em;
+	padding: 0.1em 0.5em;
+	top: 0.15em;
+}
+
+textarea {
+	padding: 0.5em;
+	margin: 0.25em 0;
+}
+
+input {
+	position: relative;
+	padding: 0.1em 0.5em;
+	top: 0.15em;
+	text-align: left;
+	height: 1em;
+}
+
+input[type=radio] {
+	padding: 0;
+	padding-top: 0.2em;
+	left: 0em;
+	top: 0.2em;
+	cursor: pointer;
+}
+
+input[type=submit] {
+	padding: 0.1em 1.5em;
+	height: 1.6em;
+	margin: auto;
+}
+
+
+/* BOOKING FORM */
+
+#bookingform {
+	border: 0;
+	margin: 0;
+	margin-bottom: 2em;
+	padding: 0 0.5em;
+}
+
+#bookingform label {
+	width: 8em;
+	display: block;
+}
+
+#bookingform input {
+	left: 0;
+}
+
+#bookingform select {
+	left: 0;
+}
+
+#bookingform textarea {
+	margin: auto;
+	width: 80%;
+	display: block;
+}
+
+#bookingform input[type=text]  {
+	text-align: left;
+}
+
+#bookingform input[type=date]  {
+	text-align: center;
+}
+
+#bookingform input[type=submit] {
+	padding: 0.1em 1.5em;
+	height: 1.6em;
+	left: 0em;
+	margin: auto;
+}
+
+.gender label {
+  display: block;
+  cursor: pointer;
+}
+
+.txt_short {
+	width: 8em;
+}
+
+.txt_med {
+	width: 11em;
+}
+
+.txt_long {
+	width: 15em;
+}
+
+/* SEARCH FORM */
+
+#searchsession {
+	border: 0;
+	margin: 0;
+	padding: 0.2em;
+}
+
+#searchsession label {
+	width: 4em;
+}
+
+#searchsession input {
+	left: 4em;
+}
+
+#searchsession input[type=submit] {
+	padding: 0em 1.5em;
+	left: 5em;
+	height: 1.2em;
+	width: 6em;
+	margin: 0.2em;
+}
+
+.inpyear {
+	width: 4em;
+	text-align: center;	
+}
+
+.inpmonth {
+	width: 7em;
+}
+
+.inpclass {
+	width: 11em;
+}
+
+
+/* ------ TABLES ------------------ */
+
+table {
+
+}
+
+thead {
+	font-size: 0.7em
+}
+
+tbody {
+	font-size: 0.8em
+}
+
+
+
+
+
+
+
+/* 
+/* ------ 2 COLUMN ------------------ */
+
+/* .imgsize{
+	width: 150px;	
+} */
+
+/* imgright{
+	display: block;
+	float: none;
+	align-items: center;
+} */
+
+/* imgleft{
+	display: block;
+	float: none;
+	align-items: center;
+} */
+
+/* .clearline{
+	clear: both;
+} */
+
+/* .blockcontent{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 100px;
+} */
+
+ */
+
+

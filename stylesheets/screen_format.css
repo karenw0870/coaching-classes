@@ -1,0 +1,307 @@
+/* ------ Main Content ---------- */
+
+.content {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 2em;
+	top: 8.5em;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+
+.home_content{
+	flex-direction: row;
+	padding: 1%;
+	margin: 0;
+	margin-top: 1.5em;
+	min-height: 100%;
+}
+
+.home_contentitem {
+	min-height: 10em;
+	margin: 0.5em;
+	padding: 0.5em;
+	width: 25%;
+}
+
+.home_contentmid {
+	min-height: 10em;
+	margin: 0.5em;
+	padding: 0.5em;
+	width: 25%;
+}
+
+/* Screen Areas / Divs */
+
+#filterbox {
+	
+}
+
+
+/* ------ Text Frame ---------- */
+
+.textframe {
+	position: relative;
+	margin: 1em 0em;
+	background: whitesmoke;
+	padding: 0.5em 8% 0.5em;
+	border: 0.3em solid rgb(51,102,115);
+}
+
+.textframe p {
+	margin: 0;
+}
+
+.topright {
+	border-radius: 0.5em 0 0.5em 0;
+}
+
+.topleft {
+	border-radius: 0 0.5em 0 0.5em;
+}
+
+.imgtopleft {
+	position: absolute;
+	left: -0.8em;
+	top: -0.8em;
+	width: 3em;
+}
+
+.imgtopright {
+	position: absolute;
+	right: -0.8em;
+	top: -0.8em;
+	width: 3em;
+}
+
+.imgbottomleft {
+	position: absolute;
+	left: -0.8em;
+	bottom: -0.8em;
+	width: 3em;
+}
+
+.imgbottomright {
+	position: absolute;
+	right: -0.8em;
+	bottom: -0.8em;
+	width: 3em;
+}
+
+
+/* ------ Image/Text Frame ---------- */
+/* mystles for colour and border styles */
+
+.frame {
+	margin: 1em;
+	border-radius: 0.5em 0 0 0.5em;
+	flex-direction: row;
+}
+
+.frameimg {
+	flex-direction: row;
+}
+
+.framedesc {
+		margin: 0.5em;
+}
+
+/* Minor sections */
+
+.frameimg_main {
+	margin: 0.7em;
+	width: 12em;
+}
+
+.framedesc_text {
+	margin: 0.2em;
+	padding: 0 10%;
+	height: calc(100% - 0.8em);
+}
+
+.frameimg h2 {
+	margin: 0.5em 0 0 0.5em;
+}
+
+.h2img {
+	width:2em;
+}
+
+
+/* ------ FORM ------------------ */
+
+form {
+	font-size: 0.9em;
+}
+	
+fieldset {
+	margin-top: 0.2em;
+	padding: 0.5em;
+	left: 0;
+}
+
+label {
+	text-align: right;
+	padding: 0.3em 0.3em 0.3em 0;
+}
+
+select {
+	position: absolute;
+	height: 1.7em;
+	padding: 0.1em 0.5em;
+	top: 0.15em;
+}
+
+textarea {
+	padding: 0.1em;
+	margin: 0.25em 0;
+}
+
+input {
+	position: absolute;
+	padding: 0.2em 0.5em;
+	top: 0.15em;
+	text-align: left;
+	height: 1em;
+}
+
+input[type=radio] {
+	padding: 0;
+	padding-top: 0.2em;
+	left: 10em;
+	top: 0.6em;
+	cursor: pointer;
+}
+
+input[type=submit] {
+	padding: 0.1em 1.5em;
+	height: 1.6em;
+	margin: auto;
+}
+
+/* BOOKING FORM */
+
+#bookingform {
+	border: 0;
+	margin: 0;
+	margin-bottom: 2em;
+	padding: 0 0.5em;
+}
+
+#bookingform label {
+	width: 8.5em;
+}
+
+#bookingform input  {
+	left: 9.5em;
+}
+
+#bookingform select {
+	left: 9.5em;
+}
+
+#bookingform textarea {
+	margin: auto;
+	width: 80%;
+	display: block;
+}
+
+#bookingform input[type=text]  {
+	text-align: left;
+}
+
+#bookingform input[type=date]  {
+	text-align: center;
+}
+
+#bookingform input[type=submit] {
+	padding: 0.1em 1.5em;
+	font-size: 0.9em;
+	height: 1.6em;
+	left: 0em;
+	margin: auto;
+}
+
+.txt_short {
+	width: 8em;
+}
+
+.txt_med {
+	width: 11em;
+}
+
+.txt_long {
+	width: 15em;
+}
+
+.gender label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* SEARCH FORM */
+
+#searchsession {
+	border: 0;
+	margin: 0;
+	padding: 0.2em;
+}
+
+#searchsession label {
+	width: 4em;
+}
+
+#searchsession input {
+	left: 5em;
+}
+
+#searchsession input[type=submit] {
+	padding: 0.1em 1.5em;
+	left: 6em;
+	height: 1.6em;
+	width: 8em;
+	margin: 0.2em;
+}
+
+.inpyear {
+	width: 4em;
+	text-align: center;	
+}
+
+.inpmonth {
+	width: 8em;
+}
+
+.inpclass {
+	width: 13em;	
+}
+
+
+/* ------ TABLES ------------------ */
+
+table {
+	font-size: 0.8em;
+}
+
+thead {
+
+}
+
+tbody {
+
+}
+
+/* .lbl_narrow {
+  display: inline-block;
+  width: 2.8em;
+  text-align: right;
+}
+
+.txt_vshort {
+	width: 3em;
+	text-align: center;
+} */
+
+
+
