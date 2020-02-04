@@ -1,32 +1,19 @@
-# Web Technolgies 1621ICT
-##### Assignment 2 - May 2017
+# Coaching Classes Exercise
+##### May 2017
 
-## Assignment Requirements
+## Technical Details
 
-Assignment to test the ability to design and develop a website using a combination of HTML, CSS 
-and PHP. Part A of the assignment focused on developing and presenting the designs and part B 
-was the actually development of the site.
+- HTML
+- CSS
+	- External CSS files
+	- No existing CSS frameworks used
+- PHP
+- SQL database to store information
 
-The designs were for a fictitous client.  The could be a small business, government agency or 
-volunteer organisation requiring an online presence. The site was originally hosted on the 
-CodeAnywhere platform.  Later the project was migrated to BitBucket.
+Displays entry level ability to design and develop a website using a combination of HTML, CSS 
+and PHP. The initial exercise was for a fictituous client.  One of the local clubs liked 
+the idea and a version was developed using Angular and NodeJS.
 
-### Implementation Requirements
-
-Implement the website as per design specifications documented in Assignment 1.  
-
-### Minimum Requirements
-
-* Minimum of 4 pages (inlcuding landing or home page)
-* Ensure the inclusion of the following
-    * Images
-	* Lists
-	* Tables
-* Navigation menu or bar
-* External CSS files for layout - no CSS frameworks are to be used
-* Use a SQL database to retireve and display some data to the user
-* Forms for entering data and searching the database
-* No pre-created HTML templates are to be used
 
 ## Development Plans
 
